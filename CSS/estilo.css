@@ -1,0 +1,91 @@
+#total{
+    width: 960px;
+    height: auto;
+    margin:auto;/*centraliza a divisão da página*/
+}
+
+#topo{
+    width: 960px;
+    height: auto;
+    float:left;
+    background-color: aqua;
+}
+
+#logo{
+    width: 200px;
+    height: 60px;/*margin-top: 10px;    top rigth  botton left*/
+    margin: 10px auto;
+    background-color:#ccc 
+}
+
+#banner{
+    width: 960px;
+    height: 300px;
+    float:left;
+    background-image: url(../imagem/banner.jpg);
+}
+
+#menu{
+    width: 210px;
+    height: 275px;
+    float:left;
+    background-image:url(../imagem/menu.png);
+    padding-top: 25px;
+    
+    
+    
+}
+
+#menu a{
+    color: #fff;/*cor da letra*/
+    font-size: 20px; /*tamanho da letra*/
+    text-decoration:none ;/* tira o sublinhado*/
+    display: block;/* deixa os nomes com bloco qdo o mouse passa por cima*/
+    text-transform: uppercase; /*faz várias coidas*/
+    margin-bottom:15px ; /*margem inferior*/
+   /* padding-left: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    */
+
+    padding: 2px 0px 2px 8px;
+}
+
+#menu a:hover{
+    background-image: url(../imagem/menu.png);
+}/*hover : acima. programa comportamento*/
+
+#conteudo{
+    width: 960px;/*largura*/
+    height: auto;/*altura*/
+    float: left;/*alinhamento*/
+}
+
+#rodape{
+    width: 960px;/*largura*/
+    height: 25px;/*altura*/
+    float: left;/*alinhamento a esquerda*/
+}
+
+.box{
+    width: 120px;
+    height: 90px;
+    float: left;
+    border: solid 10px #b28500;
+    margin: 0px 10px 20px 10px;
+
+} /* . representado por classe. Significa que tem mais de uma divisão*/
+
+body{
+    background-image: url("../imagem/background.jpg");
+    background-attachment: fixed;/*para fixar e não ficar replicando*/
+    background-size: 100%;
+    background-position: bottom center;
+    }
+
+    h1{
+        background-image: url("../imagem/gradiente.png");
+        color:blue;
+        padding: 2px 10px;
+        margin: 20px 0px;
+    }
